@@ -2,3 +2,13 @@ img {
     border: dotted burlywood 8px
 
 }
+td, table {
+    border: solid black 1px;
+    padding: 3px;
+    border-spacing: 3px;
+}
+th{
+    border: solid black 1px;
+    padding: 3px;
+    border-spacing: 3px;
+}
