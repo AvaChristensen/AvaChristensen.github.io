@@ -1,14 +1,115 @@
-img {
-    border: dotted burlywood 8px
+.profile {
+    border: dotted black 8px
 
 }
-td, table {
-    border: solid black 1px;
+td{
+    border: solid pink 1px;
     padding: 3px;
     border-spacing: 3px;
 }
 th{
-    border: solid black 1px;
+    border: solid pink 1px;
     padding: 3px;
     border-spacing: 3px;
+    background-color: blanchedalmond;
+    width: 150px;
+}
+h2{
+    font-family: cursive;
+    color: lightcoral;
+    border: solid black 4px;
+    text-size-adjust: 100px;
+    text-shadow: 1px 1px 3px black;
+    box-shadow: 2px 2px 5px cornsilk;
+}
+h1 {
+    font-family: 'Courier New';
+    color: #ffff99
+
+}
+p, li{
+    font-family: cursive;
+
+}
+.text1{
+    position: absolute;
+    top: 450px;
+    left: 100px;
+    color: white;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 90px;
+    text-shadow: -4px 4px black;
+    border: solid white 7px;
+    box-shadow: 4px 4px 5px grey;
+    background-color: grey;
+}
+}
+body{
+    background-color: rgb(51,51,51);
+    color: white;
+    position: center;
+}
+a{
+    color: pink;
+}
+.parallax1 {
+    /* The image used */
+    background-image: url("../img/grey_me.jpg");
+  
+    /* Set a specific height */
+    min-height: 600px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 5px -500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax2 {
+    /* The image used */
+    background-image: url("../img/salt_flats.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax3 {
+    /* The image used */
+    background-image: url("../img/ice.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+table{
+    column-fill: pink;
+    border: solid pink 1px;
+    padding: 3px;
+    border-spacing: 3px;
+    font-family: courier;
+}
+.blue{
+    background-color: lightcyan;
+}
+.lightgreen{
+    background-color: lightgreen;
+}
+.green{
+    background-color: green;
+}
+.coral{
+    background-color: coral;
+}
+.darkblue{
+    background-color: cornflowerblue;
 }
